@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ui_profile_imgV"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="@drawable/gradient_bg"
+        android:src="@drawable/manufacturer_ic"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/ui_profile_fieldsContainerV"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ui_profile_imgV">
+
+        <FrameLayout
+            android:id="@+id/ui_profile_mobileContainerV"
+            style="@style/profile_row_container">
+
+            <ImageView
+                style="@style/profile_row_image"
+                app:srcCompat="@drawable/profile_phone" />
+
+            <TextView
+                android:id="@+id/ui_profile_MobileTv"
+                style="@style/profile_row_fieldV"
+                android:text="@string/profile_mobile" />
+
+            <TextView
+                style="@style/profile_row_label"
+                android:text="Mobile" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/ui_profile_workContainerV"
+            style="@style/profile_row_container">
+
+            <TextView
+                android:id="@+id/ui_profile_WorkTv"
+                style="@style/profile_row_fieldV"
+                android:text="@string/profile_work" />
+
+            <TextView
+                style="@style/profile_row_label"
+                android:text="Work" />
+        </FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/light_grey" />
+
+        <FrameLayout
+            android:id="@+id/ui_profile_emailContainerV"
+            style="@style/profile_row_container">
+
+            <ImageView
+                style="@style/profile_row_image"
+                app:srcCompat="@drawable/profile_email_ic" />
+
+            <TextView
+                android:id="@+id/ui_profile_EmailTv"
+                style="@style/profile_row_fieldV"
+                android:text="@string/profile_email" />
+
+            <TextView
+                style="@style/profile_row_label"
+                android:text="Email" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ui_profile_editV"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/rect_black_stroke_trans_bg"
+        android:tag="actual_mode"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/profile_edit_ic" />
+
+    <ImageView
+        android:id="@+id/ui_profile_logoutV"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logout_icon" />
+
+    <TextView
+        android:id="@+id/ui_profile_nameV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="14dp"
+        android:layout_marginLeft="16dp"
+        android:text="Amit Kumar"
+        android:textColor="@color/light_black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/ui_profile_imgV"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

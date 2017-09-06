@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_transfer"
+        android:checked="true"
+        android:enabled="true"
+        android:icon="@drawable/transfer_blue"
+        android:title="Transfer"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_transferHistory"
+        android:enabled="true"
+        android:icon="@drawable/transfer_history_blue"
+        android:title="History"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_sterilize"
+        android:enabled="true"
+        android:icon="@drawable/sterlise_blue"
+        android:title="sterilise"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/menu_alerts"
+        android:enabled="true"
+        android:icon="@drawable/alerts_blue"
+        android:title="Alerts"
+        app:showAsAction="always" />
+
+</menu>

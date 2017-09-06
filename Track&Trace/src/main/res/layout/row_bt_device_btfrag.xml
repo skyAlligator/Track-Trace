@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/ui_row_btFrag_DeviceAddressTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:text="DeviceAddress" />
+
+    <TextView
+        android:id="@+id/ui_row_btFrag_pairedTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:text="Paired" />
+
+    <ImageView
+        android:id="@+id/ui_row_btFrag_transferImgV"
+        android:layout_width="45dp"
+        android:layout_height="30dp"
+        android:layout_gravity="end|top"
+        android:src="@drawable/tab_transfer" />
+
+    <TextView
+        android:id="@+id/ui_row_btFrag_DeviceNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Name" />
+</FrameLayout>

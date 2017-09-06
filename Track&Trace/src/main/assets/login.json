@@ -1,0 +1,55 @@
+
+[
+  {
+    "id":"01",
+    "ownerName":"Jason Mcfadyen",
+    "ownerRole":"Supply Manager",
+    "ownerID":1001,
+    "username":"supplier",
+    "password":"blockchain",
+    "_rid":"tH9OANM1aQABAAAAAAAAAA==",
+    "_self":"dbs/tH9OAA==/colls/tH9OANM1aQA=/docs/tH9OANM1aQABAAAAAAAAAA==/",
+    "_etag":"\"0000a4f9-0000-0000-0000-598051790000\"",
+    "_attachments":"attachments/",
+    "_ts":1501581689
+  },
+  {
+    "id":"02",
+    "ownerName":"Mark Skiles",
+    "ownerRole":"Operations Manager",
+    "ownerID":1002,
+    "username":"operator",
+    "password":"blockchain",
+    "_rid":"tH9OANM1aQACAAAAAAAAAA==",
+    "_self":"dbs/tH9OAA==/colls/tH9OANM1aQA=/docs/tH9OANM1aQACAAAAAAAAAA==/",
+    "_etag":"\"0000ddf9-0000-0000-0000-598053450000\"",
+    "_attachments":"attachments/",
+    "_ts":1501582149
+  },
+  {
+    "id":"03",
+    "ownerName":"Rob Luke",
+    "ownerRole":"Fleet Manager",
+    "ownerID":1003,
+    "username":"fleetManager",
+    "password":"blockchain",
+    "_rid":"tH9OANM1aQADAAAAAAAAAA==",
+    "_self":"dbs/tH9OAA==/colls/tH9OANM1aQA=/docs/tH9OANM1aQADAAAAAAAAAA==/",
+    "_etag":"\"0000e0f9-0000-0000-0000-5980534e0000\"",
+    "_attachments":"attachments/",
+    "_ts":1501582158
+  },
+  {
+    "id":"04",
+    "ownerName":"Bob Guzman",
+    "ownerRole":"Purchasing Manager",
+    "ownerID":1004,
+    "username":"purchaser",
+    "password":"blockchain",
+    "_rid":"tH9OANM1aQAEAAAAAAAAAA==",
+    "_self":"dbs/tH9OAA==/colls/tH9OANM1aQA=/docs/tH9OANM1aQAEAAAAAAAAAA==/",
+    "_etag":"\"0000d4f9-0000-0000-0000-598052f90000\"",
+    "_attachments":"attachments/",
+    "_ts":1501582072
+  }
+]

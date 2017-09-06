@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Transfer Ownership to" />
+
+    <LinearLayout
+        android:id="@+id/ui_ownerlist_cat_containerV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/ui_ownerlist_cat_manuContainerV"
+            style="@style/ownerlist_cat_containerV">
+
+            <ImageView
+                style="@style/ownerlist_cat_imgV"
+                android:src="@drawable/manufacturer_ic" />
+
+            <TextView
+                android:id="@+id/ui_ownerlist_cat_titleTv"
+                style="@style/ownerlist_cat_titleTV"
+                android:text="Supply Manager" />
+
+            <TextView
+                android:id="@+id/ui_ownerList_manufCountTV"
+                style="@style/ownerlist_cat_countTV" />
+        </FrameLayout>
+        <!--
+
+                <FrameLayout
+                    android:id="@+id/ui_ownerlist_cat_warehContainerV"
+                    style="@style/ownerlist_cat_containerV">
+
+                    <ImageView
+                        style="@style/ownerlist_cat_imgV"
+                        android:src="@drawable/manufacturer_ic" />
+
+                    <TextView
+                        style="@style/ownerlist_cat_titleTV"
+                        android:text="Warehouse/Distributor" />
+
+                    <TextView
+                        android:id="@+id/ui_ownerList_warehCountTV"
+                        style="@style/ownerlist_cat_countTV"
+                        android:layout_marginTop="25dp" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/ui_ownerlist_cat_hosptContainerV"
+                    style="@style/ownerlist_cat_containerV">
+
+                    <ImageView
+                        style="@style/ownerlist_cat_imgV"
+                        android:src="@drawable/hospital_ic" />
+
+                    <TextView
+                        style="@style/ownerlist_cat_titleTV"
+                        android:text="Hospital" />
+
+                    <TextView
+                        android:id="@+id/ui_ownerList_hospitCountTV"
+                        style="@style/ownerlist_cat_countTV"
+                        android:layout_marginTop="25dp" />
+                </FrameLayout>
+        -->
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/ui_findOwnerField"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:drawableStart="@drawable/find"
+        android:hint="Search all contacts"
+        android:imeOptions="actionDone"
+        android:inputType="textPersonName"
+        android:paddingBottom="3dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:paddingTop="3dp"
+        android:textCursorDrawable="@drawable/cursor"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/ui_ownerList_titleV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="1dp"
+        android:text="Owners List"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ui_findOwnerField" />
+
+    <com.sky.tracktracebt.fastscrollrecyclerview.FastScrollRecyclerView
+        android:id="@+id/ui_ownerList_recyV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="4dp"
+        android:background="@color/white" />
+</LinearLayout>

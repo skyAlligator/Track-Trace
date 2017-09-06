@@ -1,0 +1,38 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="login_title2">Fast Ownership transfer in a few clicks. We hope \n you\'ll love Routes.</string>
+    <string name="login_title1">Asset Ownership Transfer</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="steriliser">Steriliser</string>
+    <string name="warehouse">Warehouse</string>
+    <string name="hospital">Hospital</string>
+    <string name="manuDiscp">Our products are ISO 9001 and CE certified. We are the manufacturer and suppliers of a wide range of high quality medical, surgical and hospital products.</string>
+    <string name="steriliserDisc">The Sterile Processing Department comprises that service in which medical/surgical supplies and equipment, both sterile and, are cleaned, prepared, processed, stored, and issued for patient care.</string>
+    <string name="warehouseDisc">Warehouse has a range of products that are grouped into various product categories.</string>
+    <string name="hospDisc">We follows best practices in healthcare and provides specialty care in the department of Orthopaedics, Joint Replacement &amp; Spinal Surgery.</string>
+    <string name="profile_mobile">+XX XXXXXXXXXX</string>
+    <string name="profile_work">(XXX) XXX-xxxx</string>
+    <string name="profile_email">XXXXXXXX@YYYY.COM</string>
+
+
+
+    <string name="app_name">Cold Chain Bluetooth</string>
+
+    <string name="send">Verify</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Connecting...</string>
+    <string name="title_connected_to">Connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Not connected</string>
+
+    <string name="scanning">Scanning for devices...</string>
+    <string name="select_device">Select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+
+    <string name="secure_connect">Connect a device - Secure</string>
+    <string name="insecure_connect">Connect a device - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+</resources>
